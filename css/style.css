@@ -18015,29 +18015,42 @@ table.tbl-shopping-cart>tfoot>tr>th {
     background-color: var(--theme-color2)
 }
 
-@-webkit-keyframes "ripple" {
+
+/* Define the keyframes */
+@-webkit-keyframes ripple {
     70% {
         -webkit-box-shadow: 0 0 0 70px transparent;
-        box-shadow: 0 0 0 70px transparent
+        box-shadow: 0 0 0 70px transparent;
     }
-
     100% {
         -webkit-box-shadow: 0 0 0 0 transparent;
-        box-shadow: 0 0 0 0 transparent
+        box-shadow: 0 0 0 0 transparent;
     }
 }
 
-@keyframes "ripple" {
+@keyframes ripple {
     70% {
         -webkit-box-shadow: 0 0 0 70px transparent;
-        box-shadow: 0 0 0 70px transparent
+        box-shadow: 0 0 0 70px transparent;
     }
-
     100% {
         -webkit-box-shadow: 0 0 0 0 transparent;
-        box-shadow: 0 0 0 0 transparent
+        box-shadow: 0 0 0 0 transparent;
     }
 }
+
+/* Apply the animation to the button */
+.ripple-btn {
+    animation-name: ripple;
+    animation-duration: 1s; /* Adjust as needed */
+    animation-timing-function: ease-out; /* Adjust as needed */
+    animation-iteration-count: 1; /* Play animation once */
+}
+
+
+
+
+
 
 .page-title {
     background-color: var(--theme-color2);
