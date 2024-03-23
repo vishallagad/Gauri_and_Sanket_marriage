@@ -5080,8 +5080,10 @@ figure.image {
 .banner-section-two {
     position: relative;
     background-color: #fafafa;
-    padding: 41px 0 70px;
-    background-image: url(../images/icons/overlay2.jpg)
+    padding: 8px 0 70px;
+    /* background-image: url(../images/icons/overlay2.jpg) */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.655), rgba(255, 255, 255, 0.941)), url(../images/banner/tow-love\ 2.png);
+    
 }
 
 @media(max-width:1199.98px) {
@@ -6579,7 +6581,7 @@ figure.image {
 .couple-block-two .image-box .image:before {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 68%;
     left: 50%;
     width: 260px;
     height: 260px;
@@ -6592,8 +6594,10 @@ figure.image {
 }
 
 .couple-block-two .image-box .image img {
+    
     position: relative;
     width: 151px;
+    top: 27px;
     border-radius: 300px;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease
@@ -20413,7 +20417,7 @@ table.tbl-shopping-cart>tfoot>tr>th {
     height: 180px
 }
 .ganpatiimg img{
-    width: 106px !important;
+    width:100px !important;
     margin-bottom: 28px;
 }
 
@@ -20423,7 +20427,7 @@ table.tbl-shopping-cart>tfoot>tr>th {
     }
    
     .ganpatiimg img{
-        width: 129px !important;
+        width: 77px !important;
         margin-bottom: 10px 
     }
     .shubvivah img{
@@ -20602,4 +20606,7 @@ table.tbl-shopping-cart>tfoot>tr>th {
         background-color: #f7f7f7;
     }
   
+}
+.vishal{
+    font-family: cursive;
 }
