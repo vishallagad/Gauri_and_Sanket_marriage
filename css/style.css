@@ -6593,6 +6593,7 @@ figure.image {
 
 .couple-block-two .image-box .image img {
     position: relative;
+    width: 151px;
     border-radius: 300px;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease
