@@ -20437,13 +20437,14 @@ table.tbl-shopping-cart>tfoot>tr>th {
     .weddingname h2{
         font-weight: 800;
         color: #a01f1f;
-        font-size: 52px;
+        font-size: 49px;
         margin-bottom: 0px;
+        /* margin-right: 88px; */
     }
     .weddingname span{
         font-weight: 600;
         color: #a01f1f;
-        font-size: 30px;
+        font-size: 20px;
     }
     .weddingdate{
         font-size: 18px !important;
